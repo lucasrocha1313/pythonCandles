@@ -1,0 +1,20 @@
+INTRODUÇÃO
+
+Seguem breves notas das dificuldades encontradas
+
+DIFICULDADES
+
+- Python
+	Fazia muito tempo que eu não fazia nada em Python e minha experiência se limitava ao meio acadêmico. A primeira dificuldade encontrada foi com a instalação e configuração no windows. No ambiente linux é muito mais fácil. No final das contas instalei o Anaconda e useu o Spyder em paralelo com o Visual Studio Code.
+	
+- Dados
+	Esta talvez tenha sido a minha maior dificuldade. Eu não entendi como os dados retornados pela chamada ao método "returnTicker" poderiam ser convertidos em candles. Notei que havia um "returnChartData" já me retornava tudo pronto. Então foquei nele. Contudo havio o problema do tempo mínimo ser de 3 minutos. No final voltei o foco ao método "returnTicker" e, apos algumas buscas na internet, compreendi comos os dados deveriam ser usados. 
+
+- Outros
+	Como eu esbarrei em algumas dificuldades no processo, foquei no desenvolvimento do algoritmo. Sendo assim, o código ficou em um arquivo apenas e não foi componentizado. Como nunca desenvolvi nada comercial com python, não conheço as melhores práticas da linguagem.
+	Por motivo semelhante aos mencionados acima, não fiz testes unitários.
+	Tentei fazer um container em docker, mas faz tempo que fiz uma POC e acabei não tendo tempo de evoluir essa idéia.
+	Quanto ao streaming, nunca fiz nada parecido e acabei não pesquisando à respeito.
+
+- CONCLUSÃO
+	A proposta do teste é interessante e aprendi bastante no processo. Tenho ciencia que não evolui muito na proposta do teste mas achei interessante a ideia e buscarei aprimorar meus conhecimentos nas tecnologias requisisitadas. Por fim, gostaria de agradecer a oportunidade.
